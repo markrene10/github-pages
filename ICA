@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indang Christian Academy</title>
+    <meta name="description" content="Official website of Indang Christian Academy. Learn about our courses, facilities, and how to enroll.">
+    <meta name="keywords" content="Indang Christian Academy, school in Indang, Christian school Cavite, enroll Indang school">
+    <meta name="author" content="Indang Christian Academy">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #B22222; /* RED THEME */
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url("school-building.jpg"); /* You can replace this with your own image */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #B22222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Indang Christian Academy</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <h2>Welcome to Indang Christian Academy</h2>
+</div>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p><strong>Founded:</strong> 1990</p>
+    <p><strong>Vision:</strong> To be a leading Christian school producing well-rounded individuals equipped for life and eternity.</p>
+    <p><strong>Mission:</strong> To provide quality education grounded in biblical truth, academic excellence, and servant leadership.</p>
+    <p><strong>Core Values:</strong> Faith • Integrity • Excellence • Compassion • Service</p>
+</section>
+
+<section id="courses">
+    <h2>Academic Programs</h2>
+    <ul>
+        <li><strong>Pre-School:</strong> Nursery, Kindergarten</li>
+        <li><strong>Elementary:</strong> Grades 1–6</li>
+        <li><strong>Junior High School:</strong> Grades 7–10</li>
+        <li><strong>Senior High School:</strong> Grades 11–12 (Academic Track)</li>
+    </ul>
+    <p>Senior High School Strands:</p>
+    <ul>
+        <li>ABM (Accountancy, Business, and Management)</li>
+        <li>HUMSS (Humanities and Social Sciences)</li>
+        <li>STEM (Science, Technology, Engineering, and Mathematics)</li>
+    </ul>
+</section>
+
+<section id="facilities">
+    <h2>Our Facilities</h2>
+    <ul>
+        <li>Modern Classrooms with multimedia tools</li>
+        <li>Science and Computer Laboratories</li>
+        <li>Library and Reading Centers</li>
+        <li>Covered Court for Sports and Events</li>
+        <li>Chapel for Worship and Devotions</li>
+        <li>Canteen and Safe Recreational Spaces</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Brgy. [Your Barangay], Indang, Cavite</p>
+    <p><strong>Email:</strong> info@indangchristianacademy.edu.ph</p>
+    <p><strong>Phone:</strong> (046) 123-4567</p>
+    <p><strong>Facebook:</strong> <a href="https://facebook.com/indangchristianacademy" target="_blank">Indang Christian Academy</a></p>
+</section>
+
+<footer>
+    &copy; 2025 Indang Christian Academy. All Rights Reserved.
+</footer>
+
+</body>
+</html>
